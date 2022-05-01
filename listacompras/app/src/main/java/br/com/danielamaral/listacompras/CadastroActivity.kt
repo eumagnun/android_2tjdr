@@ -13,8 +13,6 @@ class CadastroActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_cadastro)
 
-        val tvSaida:TextView = findViewById(R.id.tvSaida)
-
         val etNomeProduto:TextView = findViewById(R.id.etNomeProduto)
         val etMarcaProduto:TextView = findViewById(R.id.etMarcaProduto)
         val etPrecoProduto:TextView = findViewById(R.id.etPrecoProduto)
